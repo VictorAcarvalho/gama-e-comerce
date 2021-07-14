@@ -18,7 +18,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(./public/blob2.svg);
+    background-image: url(./public/blob.svg);
+    background-size: 150rem;
     background-attachment: fixed;
 }
 nav{
@@ -70,6 +71,7 @@ section img{
     font-size: 8rem;
     font-weight: 700;
     font-family: 'Amatic SC',cursive;
+    text-align: center;
 }
 
 .box-descripition{
@@ -163,11 +165,11 @@ section img{
    }
 
    #side-banner img{
-        width: 0.002rem;
+        width: 0.00001%;
    }
 }
 
-@media(max-width:800px){
+@media(max-width:1024px){
    :root{
        font-size: 40%;
    }
