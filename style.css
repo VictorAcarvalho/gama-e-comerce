@@ -159,7 +159,7 @@ section img{
     
 }
 
-@media (max-width:450px){
+@media(max-width:500px) and (min-width:300px){
    :root{
        font-size: 28%;
    }
@@ -167,13 +167,4 @@ section img{
    #side-banner img{
         width: 0.00001%;
    }
-}
-
-@media(max-width:1024px){
-   :root{
-       font-size: 40%;
-   }
-    #side-banner img{
-        width: 42rem;
-    }
 }
