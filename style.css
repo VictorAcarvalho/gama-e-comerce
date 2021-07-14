@@ -153,3 +153,12 @@ section img{
     
 }
 
+@media (max-width:500px){
+   :root{
+       font-size: 28%;
+   }
+
+   #side-banner img{
+        width: 0.002rem;
+   }
+}
