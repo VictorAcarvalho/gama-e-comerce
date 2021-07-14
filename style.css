@@ -8,8 +8,7 @@
     --background-color:#ececec;
     --pop-up-bg-color: #FF5733 ;
     --text-color: #090909;
-    --box-color:  #e0e0e0
-    ;
+    --box-color:  #e0e0e0 ;
    
 }
 
@@ -41,15 +40,35 @@ nav img:hover{
     cursor: pointer;
 }
 
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section img{
+    width: 33rem;
+    margin: 5rem;
+    border-radius: 0.8rem;
+}
 
-#header-container{
+.container-section{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 2rem;
-    width: 100%;
+    font-size: 3rem;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+   
 }
+
+.header-promotion{
+    font-size: 8rem;
+    font-weight: 700;
+    font-family: 'Amatic SC',cursive;
+}
+
 .box-descripition{
     display: flex;
     flex-direction: column;
@@ -70,7 +89,7 @@ nav img:hover{
 .box-descripition button:hover{
     cursor: pointer;
     background-color: var(--background-color);
-    border-color: var(--pop-up-bg-color);
+    border-color: #9b9b9b ;
     
 }
 
@@ -103,6 +122,14 @@ nav img:hover{
     margin-left: 5rem;
 }
 
+#header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    width: 100%;
+}
 #header-container h1{
     font-family: 'Shadows Into Light', cursive;
     font-size: 8rem;
@@ -121,6 +148,8 @@ nav img:hover{
 
 
 #side-banner img{
-    width: 45rem;
+    width: 56rem;
     border-radius: 0.8rem;
+    
 }
+
