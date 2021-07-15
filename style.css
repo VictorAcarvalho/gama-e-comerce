@@ -25,24 +25,28 @@ body{
 nav{
     display: flex;
     flex-direction: row;
-    align-self: flex-end;
-}
-nav p{
-    margin: 1rem 1.2rem;
-    font-size: 2.3rem;
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
-}
-nav p:hover{
-    cursor: pointer;
-}
-nav img{
-    width: 2.3rem;
-}
-nav img:hover{
-    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color:  rgba(0,0,0,0.8); 
+    position: fixed;
+    top: 0;
+    color: var(--background-color);
+
 }
 
+footer{
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 0;
+}
+footer img{
+    width: 20rem;
+}
 section{
     display: flex;
     flex-direction: column;
@@ -131,17 +135,18 @@ section img{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-self: flex-start;
     margin: 2rem;
     width: 100%;
 }
 #header-container h1{
     font-family: 'Shadows Into Light', cursive;
-    font-size: 8rem;
+    font-size: 3rem;
+    
 }
 
 #mainLogo{
-    width: 18rem;
+    width: 6rem;
 }
 
 #side-card{
@@ -158,6 +163,49 @@ section img{
     border-radius: 0.8rem;
     
 }
+#nav-interface{
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-self: flex-end;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+}
+#nav-interface p{
+    margin: 1.5rem;
+}
+#nav-interface p:hover{
+    cursor: pointer;
+    color: #9b9b9b
+}
+#nav-interface img :hover{
+    color: #9b9b9b
+}
+#bar-search{    
+    margin-right: 33rem;
+    display: flex;
+    flex-direction: row;
+}
+#bar-search img{
+    width: 3.4rem;
+    background-color: var(--background-color);
+    border-radius: 0.5rem;
+    position: absolute;
+    right: 55rem;
+    top: 3.3rem;
+}
+#search-form{
+    width: 33rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    border: none;
+    text-align:left;
+    text-indent: 1.8rem;
+    background-color: var(--background-color);
+}
+
 
 @media(max-width:500px) and (min-width:300px){
    :root{
