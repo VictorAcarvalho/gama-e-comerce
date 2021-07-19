@@ -260,7 +260,7 @@ header h2{
 
 @media(max-width:500px) and (min-width:300px){
    :root{
-       font-size: 28%;
+       font-size: 18%;
    }
 
    #side-banner img{
