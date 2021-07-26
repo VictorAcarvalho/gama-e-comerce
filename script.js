@@ -13,3 +13,8 @@ setCartLocal=()=>{
   localStorage.setItem('product',`${product.value}`);
 
 }
+
+createUser=()=>{
+  window.prompt('Coloque seu email');
+  localStorage.setItem('email',`${prompt.value}`);
+}
